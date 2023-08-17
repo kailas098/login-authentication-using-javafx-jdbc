@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="300.0" style="-fx-background-color: #FEFCFC;" xmlns="http://javafx.com/javafx/11.0.14-internal"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginapp.Controller">
+    <children>
+        <TextField fx:id="userNameField" blendMode="MULTIPLY" layoutX="64.0" layoutY="94.0" promptText="username"
+                   style="-fx-background-color: transapernt; -fx-border-color: #FF3B3B; -fx-border-width: 0px 0px 2px 0px;">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <TextField fx:id="idNoField" blendMode="MULTIPLY" layoutX="64.0" layoutY="147.0" promptText="id no"
+                   style="-fx-background-color: transparent; -fx-border-color: #FF3B3B; -fx-border-width: 0px 0px 2px 0px;">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </TextField>
+        <Button fx:id="loginBtn" layoutX="64.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0"
+                prefWidth="55.0" style="-fx-background-color: #FF3B3B;" text="Login">
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Button>
+        <Button fx:id="addBtn" layoutX="182.0" layoutY="200.0" mnemonicParsing="false" prefHeight="27.0"
+                prefWidth="55.0" style="-fx-background-color: #FF3B3B;" text="Add">
+            <font>
+                <Font size="13.0"/>
+            </font>
+        </Button>
+    </children>
+</Pane>
